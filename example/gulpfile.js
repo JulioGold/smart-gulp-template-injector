@@ -1,24 +1,6 @@
-# smart-gulp-template-injector  
-You can process an template injecting stretches of anything with an context object using gulp.  
-  
-## Usage  
-
-```
-npm install smart-gulp-template-injector
-```
-
-### Selectors
-You can use basically on pattern to select inject tag:  
-* `/*inject:*/`  
-  
-After of `:` you can put the property name of the object what you want to use.  
-  
-### Gulp example  
-
-```javascript
 var gulp = require('gulp'),
     path = require('path'),
-    smartGulpTemplateInjector = require('smart-gulp-template-injector');
+    smartGulpTemplateInjector = require('../smartGulpTemplateInjector.js');
 
 gulp.task('template1', function() {
 
@@ -53,11 +35,3 @@ gulp.task('template2', function() {
 });
 
 gulp.task('default', ['template1', 'template2']);
-
-```  
-  
-### News  
-0.0.1 Created gulp plugin.  
-  
-Danke  
-  
