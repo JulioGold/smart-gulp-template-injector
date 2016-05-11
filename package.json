@@ -1,6 +1,6 @@
 {
   "name": "smart-gulp-template-injector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "You can process an template injecting stretches of anything with an context object using gulp.",
   "main": "smartGulpTemplateInjector.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.7",
-    "smart-template-injector": "0.0.1",
+    "smart-template-injector": "^0.0.1",
     "through2": "^2.0.1"
   }
 }
