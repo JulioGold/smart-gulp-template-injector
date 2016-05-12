@@ -59,6 +59,7 @@ gulp.task('default', ['template1', 'template2']);
 ### News  
 - 0.0.1 Created gulp plugin.  
 - 0.0.2 Changed acceptable version of *smart-template-injector*.  
+- 0.0.3 Fix dependency version.
   
 Danke  
   
