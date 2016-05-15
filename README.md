@@ -15,12 +15,13 @@ After of `:` you can put the property name of the object what you want to use.
   
 ### Gulp example  
 
-```javascript
+```javascript  
+
 var gulp = require('gulp'),
     path = require('path'),
     smartGulpTemplateInjector = require('smart-gulp-template-injector');
 
-gulp.task('template1', function() {
+gulp.task('template1', function () {
 
     var destPath = path.join(__dirname, 'dest');
     var originPath = path.join(__dirname, '**', '*1.js');
@@ -35,7 +36,7 @@ gulp.task('template1', function() {
         .pipe(gulp.dest(destPath));
 });
 
-gulp.task('template2', function() {
+gulp.task('template2', function () {
 
     var destPath = path.join(__dirname, 'dest');
     var originPath = path.join(__dirname, '**', '*2.js');
@@ -57,9 +58,10 @@ gulp.task('default', ['template1', 'template2']);
 ```  
   
 ### News  
+  
 - 0.0.1 Created gulp plugin.  
 - 0.0.2 Changed acceptable version of *smart-template-injector*.  
-- 0.0.3 Fix dependency version.
+- 0.0.3 Fix dependency version.  
   
 Danke  
   
